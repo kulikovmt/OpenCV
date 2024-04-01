@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OpenCV\\lab1\\lab1\\lab1.csproj": {}
+  },
+  "projects": {
+    "D:\\OpenCV\\lab1\\lab1\\lab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OpenCV\\lab1\\lab1\\lab1.csproj",
+        "projectName": "lab1",
+        "projectPath": "D:\\OpenCV\\lab1\\lab1\\lab1.csproj",
+        "packagesPath": "C:\\Users\\kulikovmat_yandex.ru\\.nuget\\packages\\",
+        "outputPath": "D:\\OpenCV\\lab1\\lab1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\kulikovmat_yandex.ru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
