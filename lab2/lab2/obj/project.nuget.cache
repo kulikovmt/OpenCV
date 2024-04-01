@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h3FMSK9vbggz5nuRVx9c4G8eorKGzsIQmMLRjb27rcBFTOcbDVTGYDfPYPUJGThQLZZArwh6BYqMCAuZcNUehw==",
+  "success": true,
+  "projectFilePath": "D:\\OpenCV\\lab2\\lab2\\lab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kulikovmat_yandex.ru\\.nuget\\packages\\emgu.cv\\4.3.0.3890\\emgu.cv.4.3.0.3890.nupkg.sha512",
+    "C:\\Users\\kulikovmat_yandex.ru\\.nuget\\packages\\emgu.cv.runtime.windows\\4.3.0.3890\\emgu.cv.runtime.windows.4.3.0.3890.nupkg.sha512"
+  ],
+  "logs": []
+}

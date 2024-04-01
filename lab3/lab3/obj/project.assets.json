@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Emgu.CV/4.3.0.3890": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Emgu.CV/4.3.0.3890": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "Emgu.CV/4.3.0.3890": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Emgu.CV/4.3.0.3890": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Emgu.CV/4.3.0.3890": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/Emgu.CV.Platform.NetFramework.dll": {
+            "related": ".xml"
+          },
+          "lib/net461/Emgu.CV.Platform.NetStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emgu.CV/4.3.0.3890": {
+      "sha512": "yrENt3ycXeht1bRkPGY05ZpnfywCcL71iVOtBPn9R8x07zSlEOOeuA4kaKX6ZhrSp+J2QXVngUV55igSne9n7w==",
+      "type": "package",
+      "path": "emgu.cv/4.3.0.3890",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "emgu.cv.4.3.0.3890.nupkg.sha512",
+        "emgu.cv.nuspec",
+        "icon.png",
+        "lib/net461/Emgu.CV.Platform.NetFramework.dll",
+        "lib/net461/Emgu.CV.Platform.NetFramework.xml",
+        "lib/net461/Emgu.CV.Platform.NetStandard.dll",
+        "lib/net461/Emgu.CV.Platform.NetStandard.xml",
+        "lib/netcoreapp3.1/Emgu.CV.Platform.NetCore.dll",
+        "lib/netcoreapp3.1/Emgu.CV.Platform.NetCore.xml",
+        "lib/netcoreapp3.1/Emgu.CV.Platform.NetStandard.dll",
+        "lib/netcoreapp3.1/Emgu.CV.Platform.NetStandard.xml",
+        "lib/netstandard2.0/Emgu.CV.Platform.NetStandard.dll",
+        "lib/netstandard2.0/Emgu.CV.Platform.NetStandard.xml",
+        "lib/xamarinios10/Emgu.CV.Platform.NetStandard.dll",
+        "lib/xamarinios10/Emgu.CV.Platform.NetStandard.xml"
+      ]
+    },
+    "Emgu.CV.runtime.windows/4.3.0.3890": {
+      "sha512": "vvuz7KPB8aTf4nSg1XNClHBDJMVDQoxy32MCx8mat5leSvgc6jaX1JF0ly/w25VMGp1vpiezNuW/QIJPERBm5w==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows/4.3.0.3890",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "build/Emgu.CV.runtime.windows.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/msvcp140_1.dll",
+        "build/x64/msvcp140_2.dll",
+        "build/x64/msvcp140_codecvt_ids.dll",
+        "build/x64/opencv_videoio_ffmpeg430_64.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x64/vcruntime140_1.dll",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/msvcp140_1.dll",
+        "build/x86/msvcp140_2.dll",
+        "build/x86/msvcp140_codecvt_ids.dll",
+        "build/x86/opencv_videoio_ffmpeg430.dll",
+        "build/x86/vcruntime140.dll",
+        "emgu.cv.runtime.windows.4.3.0.3890.nupkg.sha512",
+        "emgu.cv.runtime.windows.nuspec",
+        "icon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Emgu.CV >= 4.3.0.3890",
+      "Emgu.CV.runtime.windows >= 4.3.0.3890"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kulikovmat_yandex.ru\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\OpenCV\\lab3\\lab3\\lab3.csproj",
+      "projectName": "lab3",
+      "projectPath": "D:\\OpenCV\\lab3\\lab3\\lab3.csproj",
+      "packagesPath": "C:\\Users\\kulikovmat_yandex.ru\\.nuget\\packages\\",
+      "outputPath": "D:\\OpenCV\\lab3\\lab3\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\kulikovmat_yandex.ru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Emgu.CV": {
+            "target": "Package",
+            "version": "[4.3.0.3890, )"
+          },
+          "Emgu.CV.runtime.windows": {
+            "target": "Package",
+            "version": "[4.3.0.3890, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
